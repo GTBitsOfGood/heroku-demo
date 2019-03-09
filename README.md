@@ -22,10 +22,11 @@ After going through this tutorial you may find more useful reference material at
 [WATCH ME: Deploying with Heroku](https://youtu.be/lV8ipZpRCTI)
 
 1. Clone this repo locally: `git clone https://github.com/GTBitsOfGood/heroku-demo`
-2. Log into Heroku CLI: `heroku login`
-3. Create Heroku App: `heroku create`
-4. Deploy Code to Heroku w/ Git: `git push heroku master`
-5. Open your deployed app: `heroku open`
+2. `cd` into your newly cloned repo: `cd heroku-demo`
+3. Log into Heroku CLI: `heroku login`
+4. Create Heroku App: `heroku create`
+5. Deploy Code to Heroku w/ Git: `git push heroku master`
+6. Open your deployed app: `heroku open`
 
 ## Heroku Environment Variables
 To set environment variables in your Heroku Remote server you can either use the CLI tool or log into your Heroku account on the web.
